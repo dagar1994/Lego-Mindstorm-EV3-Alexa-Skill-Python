@@ -1,0 +1,95 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "robot controller",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "helloIntent",
+                    "slots": [],
+                    "samples": [
+                        "spin the sword",
+                        "spin the weapon",
+                        "spin",
+                        "hello",
+                        "hi",
+                        "hello hi"
+                    ]
+                },
+                {
+                    "name": "moveForwardIntent",
+                    "slots": [],
+                    "samples": [
+                        "start moving forward",
+                        "move ahead",
+                        "front",
+                        "up",
+                        "forward",
+                        "Move forward"
+                    ]
+                },
+                {
+                    "name": "moveBackwardIntent",
+                    "slots": [],
+                    "samples": [
+                        "move backward",
+                        "backward",
+                        "take steps back",
+                        "take reverse",
+                        "move reverse",
+                        "move back",
+                        "back"
+                    ]
+                },
+                {
+                    "name": "moveRightIntent",
+                    "slots": [],
+                    "samples": [
+                        "turn right",
+                        "move right",
+                        "right"
+                    ]
+                },
+                {
+                    "name": "moveLeftIntent",
+                    "slots": [],
+                    "samples": [
+                        "turn left",
+                        "move left",
+                        "left"
+                    ]
+                },
+                {
+                    "name": "startSentryMode",
+                    "slots": [],
+                    "samples": [
+                        "sentry mode on",
+                        "start sentry mode",
+                        "sentry mode",
+                        "start sentry"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
